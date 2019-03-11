@@ -1,2 +1,2 @@
-# global2019
-Brainhack Global 2019
+# global2018
+web page for Brainhack Global 2018
