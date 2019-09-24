@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from "prop-types"
-// import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -66,7 +66,7 @@ class Layout extends Component {
 
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="/">Brainhack Global 2019</a>
+            <Link className="navbar-brand js-scroll-trigger" to="/">Brainhack Global 2019</Link>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
               Menu
               <FontAwesomeIcon className="ml-2" icon={faBars} />
@@ -74,25 +74,25 @@ class Layout extends Component {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#about" data-toggle="collapse" data-target="#navbarResponsive">About</a>
+                  <Link className="nav-link js-scroll-trigger" href="/#about" data-toggle="collapse" data-target="#navbarResponsive">About</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#code-of-conduct" data-toggle="collapse" data-target="#navbarResponsive">Code of Conduct</a>
+                  <Link className="nav-link js-scroll-trigger" href="/#code-of-conduct" data-toggle="collapse" data-target="#navbarResponsive">Code of Conduct</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#host" data-toggle="collapse" data-target="#navbarResponsive">Host an Event</a>
+                  <Link className="nav-link js-scroll-trigger" href="/#host" data-toggle="collapse" data-target="#navbarResponsive">Host an Event</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/locations" data-toggle="collapse" data-target="#navbarResponsive">Locations</a>
+                  <Link className="nav-link js-scroll-trigger" href="/locations" data-toggle="collapse" data-target="#navbarResponsive">Locations</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#faq" data-toggle="collapse" data-target="#navbarResponsive">FAQ</a>
+                  <Link className="nav-link js-scroll-trigger" href="/#faq" data-toggle="collapse" data-target="#navbarResponsive">FAQ</Link>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-        
+
         { this.props.children }
 
         <section className="contact-section bg-black">

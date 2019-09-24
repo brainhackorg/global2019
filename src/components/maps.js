@@ -192,7 +192,7 @@ class MapContainer extends Component {
 
     places.map((p) => {
       var info = new google.maps.InfoWindow({
-        content: `<a href="/locations#location-${p.id}">${p.frontmatter.title}</a>`
+        content: `<a href="/global2019/locations#location-${p.id}">${p.frontmatter.title}</a>`
       })
 
       infos.push(info)
