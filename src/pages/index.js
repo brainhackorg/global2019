@@ -9,11 +9,6 @@ import MapContainer from "../components/maps"
 import $ from 'jquery'
 import 'bootstrap'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
-
-
 class IndexPage extends Component {
 
   componentDidMount() {
