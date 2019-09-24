@@ -75,7 +75,7 @@ class Layout extends Component {
 
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="/">Brainhack Global 2019</a>
+            <a className="navbar-brand js-scroll-trigger" href="/global2019/">Brainhack Global 2019</a>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
               Menu
               <FontAwesomeIcon className="ml-2" icon={faBars} />
@@ -83,19 +83,19 @@ class Layout extends Component {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#about">About</a>
+                  <a className="nav-link js-scroll-trigger" href="/global2019/#about">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#code-of-conduct">Code of Conduct</a>
+                  <a className="nav-link js-scroll-trigger" href="/global2019/#code-of-conduct">Code of Conduct</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#host">Host an Event</a>
+                  <a className="nav-link js-scroll-trigger" href="/global2019/#host">Host an Event</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/locations">Locations</a>
+                  <a className="nav-link" href="/global2019/locations">Locations</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#faq">FAQ</a>
+                  <a className="nav-link js-scroll-trigger" href="/global2019/#faq">FAQ</a>
                 </li>
               </ul>
             </div>
