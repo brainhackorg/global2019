@@ -31,6 +31,10 @@ class Layout extends Component {
     $('#navbarResponsive a')
       .on('click.smoothscroll', function(e){
         if (this.hash !== "") {
+          if ($(hash).length == 0) {
+            return
+          }
+
           e.preventDefault()
           var hash = this.hash
 
@@ -71,7 +75,7 @@ class Layout extends Component {
 
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="/global2019/">Brainhack Global 2019</a>
+            <a className="navbar-brand js-scroll-trigger" href="/">Brainhack Global 2019</a>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
               Menu
               <FontAwesomeIcon className="ml-2" icon={faBars} />
