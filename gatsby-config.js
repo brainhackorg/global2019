@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/conferences/brainhack2019/global/`,
+  pathPrefix: `/global2019/`,
   siteMetadata: {
     title: `Brainhack Global 2019`,
     description: ``,
