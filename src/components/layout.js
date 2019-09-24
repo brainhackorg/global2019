@@ -66,27 +66,27 @@ class Layout extends Component {
 
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="#mainNav">Brainhack Global 2019</a>
-            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <a className="navbar-brand js-scroll-trigger" href="/">Brainhack Global 2019</a>
+            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
               Menu
               <FontAwesomeIcon className="ml-2" icon={faBars} />
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#about">About</a>
+                  <a className="nav-link js-scroll-trigger" href="/#about" data-toggle="collapse" data-target="#navbarResponsive">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#code-of-conduct">Code of Conduct</a>
+                  <a className="nav-link js-scroll-trigger" href="/#code-of-conduct" data-toggle="collapse" data-target="#navbarResponsive">Code of Conduct</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#host">Host an Event</a>
+                  <a className="nav-link js-scroll-trigger" href="/#host" data-toggle="collapse" data-target="#navbarResponsive">Host an Event</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/locations">Locations</a>
+                  <a className="nav-link js-scroll-trigger" href="/locations" data-toggle="collapse" data-target="#navbarResponsive">Locations</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/#faq">FAQ</a>
+                  <a className="nav-link js-scroll-trigger" href="/#faq" data-toggle="collapse" data-target="#navbarResponsive">FAQ</a>
                 </li>
               </ul>
             </div>
