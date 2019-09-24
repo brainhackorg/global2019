@@ -11,16 +11,6 @@ import 'bootstrap'
 
 class LocationsPage extends Component {
 
-  componentDidMount() {
-    setTimeout(() => {
-      if (window.location.hash !== "") {
-        $('html, body').animate({
-          scrollTop: $(window.location.hash).offset().top - $('#mainNav').outerHeight()
-        }, 800)
-      }
-    }, 200)
-  }
-
   render() {
 
     return (

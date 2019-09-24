@@ -11,48 +11,6 @@ import 'bootstrap'
 
 class IndexPage extends Component {
 
-  componentDidMount() {
-    const navbarCollapse = function() {
-      const m = $("#mainNav")
-      if (m.offset().top > 100) {
-        m.addClass("navbar-shrink")
-      } else {
-        m.removeClass("navbar-shrink")
-      }
-    }
-    navbarCollapse()
-
-    $(window)
-      .off('scroll.IndexPage')
-      .on('scroll.IndexPage', navbarCollapse)
-
-    $('#mainNav a')
-      .on('click.smoothscroll', function(e){
-        if (this.hash !== "") {
-          e.preventDefault();
-          var hash = this.hash;
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-            window.location.hash = hash;
-          })
-        }
-      })
-
-    setTimeout(() => {
-      if (window.location.hash !== "") {
-        $('html, body').animate({
-          scrollTop: $(window.location.hash).offset().top
-        }, 800)
-      }
-    }, 500)
-  }
-
-  componentWillUnmount() {
-    $(window)
-      .off('scroll.IndexPage')
-  }
-
   render() {
 
     return (

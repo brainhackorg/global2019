@@ -28,26 +28,31 @@ class Layout extends Component {
       .off('scroll.Layout')
       .on('scroll.Layout', navbarCollapse)
 
-    // $('#navbarResponsive a')
-    //   .on('click.smoothscroll', function(e){
-    //     if (this.hash !== "") {
-    //       e.preventDefault();
-    //       var hash = this.hash;
-    //       $('html, body').animate({
-    //         scrollTop: $(hash).offset().top
-    //       }, 800, function(){
-    //         window.location.hash = hash;
-    //       })
-    //     }
-    //   })
+    $('#navbarResponsive a')
+      .on('click.smoothscroll', function(e){
+        if (this.hash !== "") {
+          e.preventDefault()
+          var hash = this.hash
 
-    // setTimeout(() => {
-    //   if (window.location.hash !== "") {
-    //     $('html, body').animate({
-    //       scrollTop: $(window.location.hash).offset().top
-    //     }, 800)
-    //   }
-    // }, 500)
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash
+          })
+
+          $('#navbarResponsive').collapse('toggle')
+        }
+      })
+
+    setTimeout(() => {
+      if (window.location.hash !== "") {
+        if ($(window.location.hash).length == 1) {
+          $('html, body').animate({
+            scrollTop: $(window.location.hash).offset().top
+          }, 800)
+        }
+      }
+    }, 500)
   }
 
   componentWillUnmount() {
@@ -74,19 +79,19 @@ class Layout extends Component {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/global2019/#about" data-toggle="collapse" data-target="#navbarResponsive">About</a>
+                  <a className="nav-link js-scroll-trigger" href="/#about">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/global2019/#code-of-conduct" data-toggle="collapse" data-target="#navbarResponsive">Code of Conduct</a>
+                  <a className="nav-link js-scroll-trigger" href="/#code-of-conduct">Code of Conduct</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/global2019/#host" data-toggle="collapse" data-target="#navbarResponsive">Host an Event</a>
+                  <a className="nav-link js-scroll-trigger" href="/#host">Host an Event</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/global2019/locations" data-toggle="collapse" data-target="#navbarResponsive">Locations</a>
+                  <a className="nav-link" href="/locations">Locations</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link js-scroll-trigger" href="/global2019/#faq" data-toggle="collapse" data-target="#navbarResponsive">FAQ</a>
+                  <a className="nav-link js-scroll-trigger" href="/#faq">FAQ</a>
                 </li>
               </ul>
             </div>
