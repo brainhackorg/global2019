@@ -1,315 +1,167 @@
 import React, { Component } from 'react'
 import {Map, GoogleApiWrapper} from 'google-maps-react'
- 
-const places = [
-    ['Brainhack NYC',
-    'http://events.brainhack.org/global2017/locations.html#NYC',
-    [-73.9706305,40.7611302]],
-    
-    ['Brainhack Ann Arbor ',
-    'http://events.brainhack.org/global2017/locations#annarbor',
-    [-83.7371794,42.2783714]],
-    
-    ['Brainhack Birmingham',
-    'http://events.brainhack.org/global2017/locations#birmingham',
-    [-86.80474,33.5059629]],
-    
-    ['Brainhack Bloomington',
-    'http://events.brainhack.org/global2017/locations#bloomington',
-    [-86.5142548,39.1703786]],
-    
-    ['Brainhack Boston',
-    'http://events.brainhack.org/global2017/locations#boston',
-    [-71.09416,42.360091]],
-    
-    ['Brainhack Hanover',
-    'http://events.brainhack.org/global2017/locations#hanover',
-    [-72.2886934,43.7044406]],
-    
-    ['Brainhack Montreal',
-    'http://events.brainhack.org/global2017/locations#montreal',
-    [-73.6137592,45.5056156]],
-    
-    ['Brainhack Albuquerque',
-    'http://events.brainhack.org/global2017/locations#albuquerque',
-    [-106.6197812,35.0843187]],
-    
-    ['Brainhack San Francisco',
-    'http://events.brainhack.org/global2017/locations#sanfrancisco',
-    [-122.4576067,37.7631667]],
-    
-    ['Brainhack Seattle',
-    'http://events.brainhack.org/global2017/locations#seattle',
-    [-122.3035199,47.6553351]],
-    
-    ['Brainhack Toronto',
-    'https://events.brainhack.org/global2017/locations#toronto',
-    [-79.3956564,43.6628917]],
-    
-    ['Brainhack Salt Lake City',
-    'http://events.brainhack.org/global2017/locations#saltlakecity',
-    [-111.8421021,40.7649368]],
-    
-    ['Brainhack DC',
-    'http://events.brainhack.org/global2017/locations#dc',
-    [-77.0368707,38.9071923]],
-    
-    ['Brainhack Madison',
-    'http://events.brainhack.org/global2017/locations#madison',
-    [-89.4124875,43.076592]],
-    
-    ['Brainhack St. Louis',
-    'http://events.brainhack.org/global2017/locations#stlouis',
-    [-90.1994042,38.6270025]],
-    
-    ['Brainhack Eugene',
-    'http://events.brainhack.org/global2017/locations#eugene',
-    [-123.079933,44.040095]],
-    
-    ['Brainhack Queretaro',
-    'http://events.brainhack.org/global2017/locations#queretaro',
-    [-100.4455411,20.7004533]],
-    
-    ['Brainhack Miami',
-    'http://events.brainhack.org/global2017/locations#miami',
-    [-80.3739487,25.7565756]],
-    
-    ['Brainhack Durham',
-    'http://events.brainhack.org/global2017/locations#durham',
-    [-78.9382286,36.0014258]],
-    
-    ['Brainhack Iowa City',
-    'http://events.brainhack.org/global2017/locations#iowacity',
-    [-91.5548998,41.6626963]],
-    
-    ['Brainhack Urbana',
-    'https://events.brainhack.org/global2017/locations#urbana',
-    [-88.2275024,40.115768]],
-    
-    ['Brainhack London',
-    'http://events.brainhack.org/global2017/locations#albuquerque',
-    [-81.2737336,43.0095971]],
-    
-    ['Brainhack Beijing',
-    'http://events.brainhack.org/global2017/locations.html#beijing',
-    [116.407395,39.904211]],
-    
-    ['Brainhack Singapore',
-    'http://events.brainhack.org/global2017/locations#singapore',
-    [103.7763939,1.2966426]],
-    
-    ['Brainhack Wako',
-    'http://events.brainhack.org/global2017/locations#Wako',
-    [139.6128256,35.7790283]],
-    
-    ['Brainhack Cambridge',
-    'http://events.brainhack.org/global2017/locations.html#cambridge',
-    [0.11778819999995,52.2016671]],
-    
-    ['Brainhack Leipzig',
-    'http://events.brainhack.org/global2017/locations.html#leipzig',
-    [12.3730747,51.3396955]],
-    
-    ['Brainhack Stockholm',
-    'http://events.brainhack.org/global2017/locations#stockholm',
-    [18.0685808000001,59.3293235]],
-    
-    ['Brainhack Paris',
-    'http://events.brainhack.org/global2017/locations.html#paris',
-    [2.35222190000002,48.856614]],
-    
-    ['Brainhack Warwick',
-    'http://events.brainhack.org/global2017/locations#warwick',
-    [-1.56147039999996,52.3792525]],
-    
-    ['Brainhack Bilbao',
-    'http://events.brainhack.org/global2017/locations#bilboa',
-    [-2.93498520000003,43.2630126]],
-    
-    ['Brainhack Zurich',
-    'http://events.brainhack.org/global2017/locations#zurich',
-    [8.5487875,47.4132133]],
-    
-    ['Brainhack York',
-    'http://events.brainhack.org/global2017/locations#york',
-    [-1.04804369999999,53.9497927]],
-    
-    ['Brainhack Munich',
-    'http://events.brainhack.org/global2017/locations#munich',
-    [11.582443,48.150942]],
-    
-    ['Brainhack Amsterdam',
-    'http://events.brainhack.org/global2017/locations.html#amsterdam',
-    [4.95704799999999,52.292364]],
-    ['Brainhack Porto Alegre',
-    'http://events.brainhack.org/global2017/locations.html#porto-alegre',
-    [-51.1729978,-30.0592964]],
-    
-    ['Brainhack Valparaíso',
-    'http://events.brainhacorg/global2017/locations#Valparaíso',
-    [-71.6173783,-33.0440351]]
-    ]
-    
+import { StaticQuery, graphql } from 'gatsby'
+
 const silver = [
-        {
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#f5f5f5"
-            }
-          ]
-        },
-        {
-          "elementType": "labels.icon",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#616161"
-            }
-          ]
-        },
-        {
-          "elementType": "labels.text.stroke",
-          "stylers": [
-            {
-              "color": "#f5f5f5"
-            }
-          ]
-        },
-        {
-          "featureType": "administrative.land_parcel",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#bdbdbd"
-            }
-          ]
-        },
-        {
-          "featureType": "poi",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#eeeeee"
-            }
-          ]
-        },
-        {
-          "featureType": "poi",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#757575"
-            }
-          ]
-        },
-        {
-          "featureType": "poi.park",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#e5e5e5"
-            }
-          ]
-        },
-        {
-          "featureType": "poi.park",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
-          ]
-        },
-        {
-          "featureType": "road",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#ffffff"
-            }
-          ]
-        },
-        {
-          "featureType": "road.arterial",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#757575"
-            }
-          ]
-        },
-        {
-          "featureType": "road.highway",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#dadada"
-            }
-          ]
-        },
-        {
-          "featureType": "road.highway",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#616161"
-            }
-          ]
-        },
-        {
-          "featureType": "road.local",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
-          ]
-        },
-        {
-          "featureType": "transit.line",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#e5e5e5"
-            }
-          ]
-        },
-        {
-          "featureType": "transit.station",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#eeeeee"
-            }
-          ]
-        },
-        {
-          "featureType": "water",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#c9c9c9"
-            }
-          ]
-        },
-        {
-          "featureType": "water",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
-          ]
-        }
-      ]
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#dadada"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.line",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.station",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#c9c9c9"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  }
+]
 
 
 class MapContainer extends Component {
@@ -318,7 +170,9 @@ class MapContainer extends Component {
     center: null,
   }
 
-  fetchPlaces = (mapProps, map) => {
+  fetchPlaces = (places) => (mapProps, map) => {
+
+    console.log(places)
     const { google } = mapProps
 
     var styledMapType = new google.maps.StyledMapType(silver)
@@ -329,7 +183,7 @@ class MapContainer extends Component {
     const bounds = new google.maps.LatLngBounds();
 
     for (let p of places) {
-        let loc = new google.maps.LatLng(p[2][1], p[2][0]);
+        let loc = new google.maps.LatLng(p.frontmatter.position.lat, p.frontmatter.position.lng);
         bounds.extend(loc)
     }
     
@@ -340,15 +194,15 @@ class MapContainer extends Component {
 
     places.map((p) => {
       var info = new google.maps.InfoWindow({
-        content: `<a href="${p[1]}">${p[0]}</a>`
+        content: `<a href="/locations#location-${p.id}">${p.frontmatter.title}</a>`
       })
 
       infos.push(info)
 
       let marker = new google.maps.Marker({
         position: {
-          lat: p[2][1],
-          lng: p[2][0],
+          lat: p.frontmatter.position.lat,
+          lng: p.frontmatter.position.lng,
         },
         map: map,
         icon: {
@@ -361,18 +215,51 @@ class MapContainer extends Component {
         infos.map((inf) => inf.close())
         info.open(map, marker)
       })
+
+      return p
     })
   }
 
   render() {
     return (
-      <Map style={{
-      }} containerStyle={{
-        width: '100%',
-        height: '400px',
-        position: 'relative',
-      }} google={this.props.google} zoom={3} mapTypeControl={false} streetViewControl={false} onReady={this.fetchPlaces}>
-      </Map>
+      <StaticQuery
+        query={graphql`
+          {
+            allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/sites/"}}) {
+              edges {
+                node {
+                  id
+                  fileAbsolutePath
+                  frontmatter {
+                    title
+                    organizers
+                    address
+                    website
+                    dates
+                    position {
+                      lat
+                      lng
+                    }
+                  }
+                }
+              }
+            }
+          }
+        `}
+        render={ ({ allMarkdownRemark: { edges } }) => (
+          <Map 
+            containerStyle={{
+              width: '100%',
+              height: '400px',
+              position: 'relative',
+            }}
+            google={this.props.google}
+            zoom={3}
+            mapTypeControl={false}
+            streetViewControl={false}
+            onReady={this.fetchPlaces(edges.map(e => e.node))}
+          />
+      )} />
     )
   }
 }
