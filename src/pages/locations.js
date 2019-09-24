@@ -14,7 +14,6 @@ class LocationsPage extends Component {
   componentDidMount() {
     setTimeout(() => {
       if (window.location.hash !== "") {
-        console.log($('#mainNav').height())
         $('html, body').animate({
           scrollTop: $(window.location.hash).offset().top - $('#mainNav').outerHeight()
         }, 800)

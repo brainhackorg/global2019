@@ -171,8 +171,6 @@ class MapContainer extends Component {
   }
 
   fetchPlaces = (places) => (mapProps, map) => {
-
-    console.log(places)
     const { google } = mapProps
 
     var styledMapType = new google.maps.StyledMapType(silver)

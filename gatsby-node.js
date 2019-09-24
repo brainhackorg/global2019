@@ -33,7 +33,6 @@ const remarkHTML = require('remark-html')
 exports.onCreateNode = ({ node }) => {
   if (node.internal.type === 'MarkdownRemark') {
     if (node.frontmatter.faq) {
-      console.log(node.frontmatter.faq)
       for (let f of node.frontmatter.faq) {
         f.question = remark()
           .use(remarkHTML)
@@ -44,7 +43,6 @@ exports.onCreateNode = ({ node }) => {
           .processSync(f.answer)
           .toString()
       }
-      console.log(node.frontmatter.faq)
     }
   }
   return node;
