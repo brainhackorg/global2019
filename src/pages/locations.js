@@ -11,6 +11,17 @@ import 'bootstrap'
 
 class LocationsPage extends Component {
 
+  componentDidMount() {
+    setTimeout(() => {
+      if (window.location.hash !== "") {
+        console.log($('#mainNav').height())
+        $('html, body').animate({
+          scrollTop: $(window.location.hash).offset().top - $('#mainNav').outerHeight()
+        }, 800)
+      }
+    }, 200)
+  }
+
   render() {
 
     return (
@@ -18,10 +29,10 @@ class LocationsPage extends Component {
         <SEO title="Locations" />
 
         <span id="locations" className="anchor"></span>
-        <section className="locations-section bg-dark p-lg-5">
+        <section className="locations-section p-lg-5">
           <div className="container bg-light mt-5 pt-5">
-            <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-              <div className="col-12 col-lg-9">
+            <div className="row justify-content-center no-gutters">
+              <div className="col-12 col-lg-9 mb-5">
                 <h2 className="text-black mb-3 text-center">Locations</h2>
                 <StaticQuery
                   query={graphql`
@@ -53,16 +64,17 @@ class LocationsPage extends Component {
                     }
                   `}
                   render={ ({ allMarkdownRemark: { edges } }) => (
-                    edges.sort((a, b) => a.node.fileAbsolutePath > b.node.fileAbsolutePath ? 1 : -1).map(({ node: { frontmatter: info } }, si) => (
+                    edges.sort((a, b) => a.node.fileAbsolutePath > b.node.fileAbsolutePath ? 1 : -1).map(({ node, node: { frontmatter: info } }, si) => (
                       <div key={si}>
-                        <h3>{ info.title }</h3>
+                        <span className="anchor" id={`location-${node.id}`}></span>
+                        <h3 className="mt-5">{ info.title }</h3>
 
                         <p>Organizers: { info.organizers.join(', ') }</p>
-                        { info.website ? (<p>Website: <a href="">{ info.website }</a></p>) : null }
-                        { info.address ? (<p>Address: { info.address }</p>) : null }
+                        { info.website ? (<p>Website: <a href={ info.website }>{ info.website }</a></p>) : null }
+                        { info.address ? (<p>Address: <a href={`http://maps.google.com/?q=${info.position.lat},${info.position.lng}`}>{ info.address }</a></p>) : null }
                         { info.contact ? (<p>Contact: { info.contact }</p>) : null }
                         
-                        <hr className="d-none d-lg-block mb-5 ml-0" />
+                        <hr className="d-none d-lg-block mb-0 ml-0" />
                       </div>
                     ))
                   )}
