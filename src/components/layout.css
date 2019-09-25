@@ -1,6 +1,6 @@
 
 
-.card-header { border: none; border-top: 1px solid #CCC; }
+.card-header { border: none; border-top: 1px solid #CCC; cursor: pointer; }
 .accordion .card:first-child .card-header { border: none; }
 .card { border: none; margin: 0 -1.25rem }
 
@@ -127,10 +127,19 @@
   color: #FFF;
 }
 
+.masthead h2.date {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
+  }
+  .masthead h2.date {
+    max-width: 30rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -193,7 +202,7 @@
 }
 
 .about-section a.btn ,.host-section a.btn {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .about-section {

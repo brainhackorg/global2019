@@ -35,22 +35,22 @@ faq:
 
   - question: Where can I see the previous years’ events?
     answer: |
-      Here you can find all the previous years’ event sites, contact points, and the link to their websites.
+      [Here](http://brainhack.org) you can find all the previous years’ event sites, contact points, and the link to their websites.
 
 
   - question: Where can I see the current event locations?
     answer: |
-      Here you can find updated information about all the confirmed event sites for a particular year’s Brainhack Global event.
+      [Here](http://brainhack.org/global2019/locations) you can find updated information about all the confirmed event sites for a this year’s Brainhack Global event.
 
 
   - question: How can I watch online streaming tutorials?
     answer: |
-      Here you can find a schedule of all the local event sites and access their broadcasts in the proposed program. 
+      [Here](https://calendar.google.com/calendar?cid=ODJtZnVkNHNuZWVhYTk5MWI1cXB1MXJtNTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) you can find a schedule of all the local event sites and access their broadcasts in the proposed program. 
 
 
   - question: May I use the logo of Brainhack Global in my presentations/materials? Where can I find the logo?
     answer: |
-      Yes, you can use the Brainhack logo in your presentations and materials. When you use educational and informational materials, please do not forget to cite the materials’ community/developer(s). Here you can download the logo of Brainhack Global.
+      Yes, you can use the Brainhack logo in your presentations and materials. When you use educational and informational materials, please do not forget to cite the materials’ community/developer(s). [Here](https://github.com/brainhackorg/pr-material) you can download the logo and other materials of Brainhack Global.
 
 
   - question: What are the main social accounts of Brainhack Global?

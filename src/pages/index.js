@@ -6,7 +6,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MapContainer from "../components/maps"
 
-import $ from 'jquery'
 import 'bootstrap'
 
 class IndexPage extends Component {
@@ -21,6 +20,7 @@ class IndexPage extends Component {
           <div className="container d-flex h-100 align-items-center">
             <div className="mx-auto text-center">
               <h1 className="mx-auto text-uppercase">Brainhack Global</h1>
+              <h2 className="mx-auto mt-2 mb-5 date">November 13 – 17</h2>
               <h2 className="mx-auto mt-2 mb-5">Researchers from across the globe and a myriad of disciplines working together on innovative projects related to neuroscience.</h2>
             </div>
           </div>
@@ -96,8 +96,12 @@ class IndexPage extends Component {
             <div className="row">
               <div className="col-lg-8 mx-auto">
                 <h2 className="text-white mb-4">Host a Local Brainhack</h2>
-                <p className="text-white mb-5">
+                <p className="text-white">
                   We are currently recruiting sites to host <br /> local events during Brainhack Global 2019!
+                </p>
+
+                <p className="text-white mb-5">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBWTBWiVB_vSbSwueYWMTjaO_XsTCZibcUYVhMWQvWuDt0tg/viewform?usp=sf_link" className="btn btn-primary mx-auto">Apply to host</a>
                 </p>
 
                 <p className="text-white">
@@ -106,7 +110,7 @@ class IndexPage extends Component {
                   Check it out:
                 </p>
 
-                <p><a href="submit" className="btn btn-primary mx-auto">Get from Github</a></p>
+                <p><a href="https://github.com/brainhackorg/pr-material" className="btn btn-primary mx-auto">Get from Github</a></p>
               </div>
             </div>
           </div>

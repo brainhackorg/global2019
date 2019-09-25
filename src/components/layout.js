@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -31,7 +30,7 @@ class Layout extends Component {
     $('#navbarResponsive a')
       .on('click.smoothscroll', function(e){
         if (this.hash !== "") {
-          if ($(hash).length == 0) {
+          if ($(this.hash).length === 0) {
             return
           }
 
@@ -50,7 +49,7 @@ class Layout extends Component {
 
     setTimeout(() => {
       if (window.location.hash !== "") {
-        if ($(window.location.hash).length == 1) {
+        if ($(window.location.hash).length === 1) {
           $('html, body').animate({
             scrollTop: $(window.location.hash).offset().top
           }, 800)

@@ -3,13 +3,13 @@ section: Hosts
 faq:
   - question: Are we eligible to host a local Brainhack event as part of Brainhack Global?
     answer: |
-      Yes! You do not have to have a big team or extensive attendee list. Sometimes event sites might not even come up with their projects. On those occasions, you might provide the attendees with tutorials, or you can watch simultaneously presented tutorials from other event sites and run brainstorming sessions to discuss the implement ability of the presented methods in your research. 
+      Yes! You do not have to have a big team or extensive attendee list. Sometimes event sites might not even come up with their projects. On those occasions, you might provide the attendees with tutorials, or you can watch simultaneously presented tutorials from other event sites and run brainstorming sessions to discuss the implementability of the presented methods in your research. 
 
       One thing to remember is that regardless of your event’s size, you always need a good supporting team working alongside you. Because, as you can read from the How to Guideline, there are some details you have to consider ahead of the event, and each of these units requires dedicated volunteers. Therefore, once you have gathered your team and enough funding to cover your primary expenses (e.g., venue, catering), then you will be ready to start planning the event. Please read the How to Guideline before you decide on the scope of the event you will run on your site. 
 
   - question: Where can I find the How to Guideline for the organization of a local Brainhack event as part of Brainhack Global? 
     answer: |
-      Here! We already created one, but please do not hesitate to give us your feedback so we can add/improve the materials.
+      (Here)[https://github.com/brainhackorg/pr-material]! We already created one, but please do not hesitate to give us your feedback so we can add/improve the materials.
 
   - question: Can we schedule our own program?
     answer: |
@@ -21,7 +21,7 @@ faq:
 
   - question: Could we use our own visuals and logo?
     answer: |
-      It certainly is fun to have different logos for each of the participating sites. However, this is optional, and you are welcome to use the Brainhack Global logos provided here. If you choose to create your logo, please follow the Code of Conduct: make sure that the logos do not offend any group of society or individuals by any means and/or create any conflicting ideas on political opinions, race and gender discriminations. 
+      It certainly is fun to have different logos for each of the participating sites. However, this is optional, and you are welcome to use the Brainhack Global logos provided (here)[https://github.com/brainhackorg/pr-material]. If you choose to create your logo, please follow the (Code of Conduct)[http://www.brainhack.org/code-of-conduct.html]: make sure that the logos do not offend any group of society or individuals by any means and/or create any conflicting ideas on political opinions, race and gender discriminations. 
 
   - question: Will we get technical support on implementing the website and setting up the broadcasting?
     answer: |
@@ -29,7 +29,7 @@ faq:
 
   - question: Where can we access the previous tutorials? Could we use those tutorials in our events?
     answer: |
-      You can access the list of previous years’ event holders and their websites from here. As is the case now, each site had its program and schedule, and some of them made their tutorials publicly available. Those are still accessible through the events’ past websites. Please do not hesitate to check the tutorials and to use the materials by citing the original authors/creators. 
+      You can access the list of previous years’ event holders and their websites from (here)[http://brainhack.org/]. As is the case now, each site had its program and schedule, and some of them made their tutorials publicly available. Those are still accessible through the events’ past websites. Please do not hesitate to check the tutorials and to use the materials by citing the original authors/creators. 
 
   - question: What type of support will I get from the Brainhack Global team?
     answer: |
@@ -37,22 +37,19 @@ faq:
 
       * How to Guideline;
       * instructions for building your website;
-      * Gantt Chart for organizing the event;
-      * template invitation letter for the speakers;
-      * template announcement email for the event;
       * checklist for the duties to run;
       * code for the website template;
-      * code for the registration form template;
+      * registration form questionnaire;
       * PR materials: Brainhack logo and color scheme;
-      * list of open science tools and materials you can use in your tutorial production;
+      * list of open science tools and materials you can use in your own tutorial production;
       * code for the attendee selection (in the case of a high number of applications);
       * instructions for broadcasting.
 
-      Once you confirm that you will host an event, the Brainhack Global team will give you the support you need (i.e., as much as our volunteer team can provide). It is recommended to keep the Brainhack Global team up to date with your plans and preparations to swiftly get the support you need. 
+      Once you confirm that you will host an event, the Brainhack Global team will give you the support you need (i.e., as much as our volunteer team is able to provide). It is recommended to keep the Brainhack Global team up to date with your plans and preparations to swiftly get the support you need. 
 
   - question: Could we use the tutorials/materials from recent years or other event sites?
     answer: |
-      Yes, you can access the materials from recent years from the event sites’ websites listed here. Please do not forget to cite the materials’ developer(s) in your presentations which will help the acknowledgment of data sharing and open science while respecting the amount of work done by the leading developer(s). 
+      Yes, you can access the materials from recent years from the event sites’ websites listed (here)[http://brainhack.org]. Please do not forget to cite the materials’ developer(s) in your presentations which will help the acknowledgment of data sharing and open science while respecting the amount of work done by the leading developer(s). 
 
   - question: May I work with a commercial sponsor?
     answer: |

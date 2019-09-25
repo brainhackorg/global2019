@@ -5,7 +5,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import $ from 'jquery'
 import 'bootstrap'
 
 
