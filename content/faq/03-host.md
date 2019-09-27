@@ -9,7 +9,7 @@ faq:
 
   - question: Where can I find the How to Guideline for the organization of a local Brainhack event as part of Brainhack Global? 
     answer: |
-      (Here)[https://github.com/brainhackorg/pr-material]! We already created one, but please do not hesitate to give us your feedback so we can add/improve the materials.
+      [Here](https://github.com/brainhackorg/pr-material)! We already created one, but please do not hesitate to give us your feedback so we can add/improve the materials.
 
   - question: Can we schedule our own program?
     answer: |
@@ -21,7 +21,7 @@ faq:
 
   - question: Could we use our own visuals and logo?
     answer: |
-      It certainly is fun to have different logos for each of the participating sites. However, this is optional, and you are welcome to use the Brainhack Global logos provided (here)[https://github.com/brainhackorg/pr-material]. If you choose to create your logo, please follow the (Code of Conduct)[http://www.brainhack.org/code-of-conduct.html]: make sure that the logos do not offend any group of society or individuals by any means and/or create any conflicting ideas on political opinions, race and gender discriminations. 
+      It certainly is fun to have different logos for each of the participating sites. However, this is optional, and you are welcome to use the Brainhack Global logos provided [here](https://github.com/brainhackorg/pr-material). If you choose to create your logo, please follow the [Code of Conduct](http://www.brainhack.org/code-of-conduct.html): make sure that the logos do not offend any group of society or individuals by any means and/or create any conflicting ideas on political opinions, race and gender discriminations. 
 
   - question: Will we get technical support on implementing the website and setting up the broadcasting?
     answer: |
@@ -29,7 +29,7 @@ faq:
 
   - question: Where can we access the previous tutorials? Could we use those tutorials in our events?
     answer: |
-      You can access the list of previous years’ event holders and their websites from (here)[http://brainhack.org/]. As is the case now, each site had its program and schedule, and some of them made their tutorials publicly available. Those are still accessible through the events’ past websites. Please do not hesitate to check the tutorials and to use the materials by citing the original authors/creators. 
+      You can access the list of previous years’ event holders and their websites from [here](http://brainhack.org/). As is the case now, each site had its program and schedule, and some of them made their tutorials publicly available. Those are still accessible through the events’ past websites. Please do not hesitate to check the tutorials and to use the materials by citing the original authors/creators. 
 
   - question: What type of support will I get from the Brainhack Global team?
     answer: |
@@ -49,7 +49,7 @@ faq:
 
   - question: Could we use the tutorials/materials from recent years or other event sites?
     answer: |
-      Yes, you can access the materials from recent years from the event sites’ websites listed (here)[http://brainhack.org]. Please do not forget to cite the materials’ developer(s) in your presentations which will help the acknowledgment of data sharing and open science while respecting the amount of work done by the leading developer(s). 
+      Yes, you can access the materials from recent years from the event sites’ websites listed [here](http://brainhack.org). Please do not forget to cite the materials’ developer(s) in your presentations which will help the acknowledgment of data sharing and open science while respecting the amount of work done by the leading developer(s). 
 
   - question: May I work with a commercial sponsor?
     answer: |
