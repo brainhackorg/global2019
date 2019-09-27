@@ -206,7 +206,13 @@
 }
 
 .about-section {
-  padding: 5rem 0;
+  padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    padding: 5rem 0;
+  }
 }
 
 .about-section .featured-text {
