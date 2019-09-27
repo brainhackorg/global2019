@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import $ from 'jquery'
@@ -111,6 +111,9 @@ class Layout extends Component {
               </a>
               <a href="https://github.com/brainhackorg" className="mx-2">
                 <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a href="mailto:brainhackorg@gmail.com" className="mx-2">
+                <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </div>
           </div>
