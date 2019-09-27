@@ -30,11 +30,8 @@ class IndexPage extends Component {
         <section className="about-section bg-light">
           <div className="container">
             <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-              <div className="col-xl-8 col-lg-7">
-                <MapContainer />
-              </div>
-              <div className="col-xl-4 col-lg-5">
-                <div className="featured-text text-center text-lg-left">
+              <div className="col-xl-4 col-lg-5 order-lg-12 h-100">
+                <div className="featured-text text-center text-lg-left h-100">
                   <p className="text-black-50">
                     Brainhack is a unique conference that convenes researchers from across the globe
                     and a myriad of disciplines to work together on innovative projects related to
@@ -50,6 +47,9 @@ class IndexPage extends Component {
                     regional Brainhack events throughout the world.
                   </p>
                 </div>
+              </div>
+              <div className="col-xl-8 col-lg-7 order-lg-1">
+                <MapContainer />
               </div>
             </div>
 
