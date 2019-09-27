@@ -4,7 +4,7 @@ organizers:
   - Julie Coloigner
 contact: julie.coloigner@irisa.fr
 website:
-address: Inria Research Centre (https://www.inria.fr/centre/rennes)
+address: Inria Research Centre, Domaine de Voluceau, 78150
 position:
   lat: 48.8378281
   lng: 2.1030058
