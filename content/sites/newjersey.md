@@ -6,7 +6,7 @@ organizers:
   - Elizabeth McDevitt
   - Karina Tachihara
 contact: sam.nastase@gmail.com
-website:
+website: https://brainhack-princeton.github.io
 address: Princeton Neuroscience Institute and Peretsman Scully Hall, Princeton University, Princeton
 position:
   lat: 40.34307

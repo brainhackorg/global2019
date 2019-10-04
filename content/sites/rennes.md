@@ -3,7 +3,7 @@ title: Brainhack Rennes
 organizers:
   - Julie Coloigner
 contact: julie.coloigner@irisa.fr
-website:
+website: https://brainhack.irisa.fr
 address: Inria Research Centre, Domaine de Voluceau, 78150
 position:
   lat: 48.8378281
