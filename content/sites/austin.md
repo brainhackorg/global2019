@@ -5,10 +5,10 @@ organizers:
   - Daniel Margulies
 contact: cameron.craddock@austin.utexas.edu
 website: http://computational-neuroimaging-lab.org/
-address: 1601 Trinity St, Austin, TX 78701
+address: 1601 Trinity St, Austin, TX 78701, USA
 position:
-  lat: 30.2772353
-  lng: -97.7372389
+  lat: 30.277313
+  lng: -97.734812
 dates:
   - 2019-11-13
   - 2019-11-14

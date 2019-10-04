@@ -7,10 +7,10 @@ organizers:
   - Karina Tachihara
 contact: sam.nastase@gmail.com
 website:
-address: Princeton Neuroscience Institute and Peretsman Scully Hall, Princeton University, Princeton
+address: Princeton Neuroscience Institute and Peretsman Scully Hall, Princeton University, Princeton, NJ, USA
 position:
-  lat: 40.34307
-  lng: -74.6525721
+  lat: 40.3434412
+  lng: -74.6544729
 dates:
   - 2019-11-13
   - 2019-11-14
