@@ -1,5 +1,5 @@
 ---
-title: Brainhack Ankara, Turkey
+title: Brainhack Ankara
 organizers:
   - Meltem Atay
 contact: meltemiatay@gmail.com

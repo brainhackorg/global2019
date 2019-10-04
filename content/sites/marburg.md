@@ -4,7 +4,7 @@ organizers:
   - Lydia Riedl
 contact: riedll@staff.uni-marburg.de
 website:
-address:
+address: Marburg, Hessen, Germany
 position:
   lat: 50.8066021
   lng: 8.7632194
