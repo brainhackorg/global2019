@@ -1,5 +1,5 @@
 ---
-title: Brainhack London, Canada
+title: Brainhack London Canada
 organizers: 
   - Ali Khan
   - Marieke Mur
@@ -15,10 +15,10 @@ organizers:
   - Dimuthu Hemachandra
 contact: brainhack.western@gmail.com
 website: https://brainhackwestern.github.io/
-address: Western Science Centre, Laureen O. Paterson Building, Western University
+address: Western Science Centre, Laureen O. Paterson Building, Western University, London, ON, Canada
 position:
-  lat: 43.0099697
-  lng: -81.2714448
+  lat: 43.0099736
+  lng: -81.2736388
 dates:
   - 2019-11-13
   - 2019-11-14

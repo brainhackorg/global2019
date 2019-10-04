@@ -6,7 +6,7 @@ organizers:
   - Anastasia Osoianu
 contact: brainhacksynergy@gmail.com
 website: https://brainhacksynergy.github.io/
-address:
+address: Utrecht and The Hague, The Netherlands 
 position:
   lat: 52.0833341
   lng: 5.1454323
