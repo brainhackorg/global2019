@@ -2,7 +2,8 @@
 title: Brainhack Marburg
 organizers:
   - Lydia Riedl
-contact: riedll@staff.uni-marburg.de
+contact:
+  - riedll@staff.uni-marburg.de
 website:
 address: Marburg, Hessen, Germany
 position:

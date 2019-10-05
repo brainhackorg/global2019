@@ -2,7 +2,8 @@
 title: Brainhack Atlanta
 organizers: 
   - Yasmine Bassil
-contact: yasminebassil@gatech.edu
+contact:
+  - yasminebassil@gatech.edu
 website:
 address: TReNDS center (the Center for Translational Research in Neuroimaging and Data Science) at Georgia State University, Atlanta, GA, USA
 position:

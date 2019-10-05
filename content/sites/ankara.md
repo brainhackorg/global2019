@@ -2,7 +2,8 @@
 title: Brainhack Ankara
 organizers:
   - Meltem Atay
-contact: meltemiatay@gmail.com
+contact:
+  - meltemiatay@gmail.com
 website: 
 address: Ankara, Turkey
 position:

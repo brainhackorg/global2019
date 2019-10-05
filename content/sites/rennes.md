@@ -2,7 +2,8 @@
 title: Brainhack Rennes
 organizers:
   - Julie Coloigner
-contact: julie.coloigner@irisa.fr
+contact:
+  - julie.coloigner@irisa.fr
 website: https://brainhack.irisa.fr
 address: IRISA/Inria Rennes, Campus de Beaulieu 35000 Rennes, Bretagne, France
 position:

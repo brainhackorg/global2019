@@ -2,7 +2,8 @@
 title: Brainhack Zagreb
 organizers:
   - Andrija Stajduhar
-contact: brainhacksynergy@gmail.com
+contact:
+  - brainhacksynergy@gmail.com
 website: https://brainhackzg.github.io/
 address: Five, Heinzelova ul. 33, Zagreb, Croatia
 position:

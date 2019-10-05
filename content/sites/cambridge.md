@@ -3,7 +3,8 @@ title: Brainhack Cambridge
 organizers: 
   - Lena Dorfschmidt
   - Jakub Vohryzek
-contact: oxbridgebrainhack@gmail.com
+contact:
+  - oxbridgebrainhack@gmail.com
 website: 
 address: Oxford-Cambridge, UK
 position:

@@ -13,7 +13,8 @@ organizers:
   - Justine Clery
   - Claire Park
   - Dimuthu Hemachandra
-contact: brainhack.western@gmail.com
+contact:
+  - brainhack.western@gmail.com
 website: https://brainhackwestern.github.io/
 address: Western Science Centre, Laureen O. Paterson Building, Western University, London, ON, Canada
 position:

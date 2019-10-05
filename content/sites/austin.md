@@ -2,8 +2,8 @@
 title: Brainhack Austin
 organizers: 
   - Cameron Craddock
-  - Daniel Margulies
-contact: cameron.craddock@austin.utexas.edu
+contact:
+  - cameron.craddock@austin.utexas.edu
 website: http://computational-neuroimaging-lab.org/
 address: 1601 Trinity St, Austin, TX 78701, USA
 position:

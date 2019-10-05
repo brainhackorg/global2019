@@ -4,7 +4,8 @@ organizers:
   - Drosoula Tsangaratou
   - Charl Linssen
   - Anastasia Osoianu
-contact: brainhacksynergy@gmail.com
+contact:
+  - brainhacksynergy@gmail.com
 website: https://brainhacksynergy.github.io/
 address: Utrecht and The Hague, The Netherlands 
 position:

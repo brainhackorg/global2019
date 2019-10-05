@@ -2,7 +2,8 @@
 title: Brainhack Eugene 
 organizers: 
   - Kate Mills
-contact: klmills@uoregon.edu
+contact:
+  - klmills@uoregon.edu
 website: https://brainhack-eugene.github.io
 address: University of Oregon, Eugene, OR, USA
 position:
