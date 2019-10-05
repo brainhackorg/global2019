@@ -1,5 +1,5 @@
 ---
-title: Brainhack Zagreb, Croatia
+title: Brainhack Zagreb
 organizers:
   - Andrija Stajduhar
 contact: brainhacksynergy@gmail.com
