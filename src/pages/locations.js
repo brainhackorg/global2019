@@ -60,7 +60,7 @@ class LocationsPage extends Component {
                         <p>Organizers: { info.organizers.join(', ') }</p>
                         { info.website ? (<p>Website: <a href={ info.website }>{ info.website }</a></p>) : null }
                         { info.address ? (<p>Address: <a href={`http://maps.google.com/?q=${info.position.lat},${info.position.lng}`}>{ info.address }</a></p>) : null }
-                        { info.contact ? (<p>Contact: { info.contact.join(',') }</p>) : null }
+                        { info.contact ? (<p>Contact: <a href={ info.contact.join(',') }>{ info.contact.join(', ') }</a></p>) : null }
                         
                         <hr className="d-none d-lg-block mb-0 ml-0" />
                       </div>
