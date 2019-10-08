@@ -1,5 +1,5 @@
 ---
-title: Brainhack Toronto Canada
+title: Brainhack Toronto
 organizers: 
   - Erin Dickie
   - Sean Hill

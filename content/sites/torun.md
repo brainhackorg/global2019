@@ -1,5 +1,5 @@
 ---
-title: Brainhack Toruń, Poland 
+title: Brainhack Toruń
 organizers: 
   - Karolina Finc
 contact:
