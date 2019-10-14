@@ -6,7 +6,7 @@ organizers:
 contact:
   - valentina.borghesani@ucsf.edu
   - marialuisa.mandelli@ucsf.edu
-website: https://brainhack_marseille.frama.io/ref2019 
+website: https://sfbrainhack.github.io/
 address: University of California, San Francisco
 position:
   lat: 37.7659451
