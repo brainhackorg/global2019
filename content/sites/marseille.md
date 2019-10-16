@@ -1,12 +1,12 @@
 ---
-title: Brainhack Marseille, France
+title: Brainhack Marseille
 organizers:
   - Sylvain Takerkart
   - David Meunier
 contact:
   - sylvain.takerkart@univ-amu.fr
   - david.meunier@univ-amu.fr
-website: https://brainhack_marseille.frama.io/ref2019 
+website: https://brainhack_marseille.frama.io/ref2019
 address: Institut de Neurosciences de la Timone, Faculté de Médecine, 27 Boulevard Jean Moulin, 13005 Marseille, France
 position:
   lat: 43.287051
