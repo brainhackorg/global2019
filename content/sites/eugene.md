@@ -1,9 +1,13 @@
 ---
 title: Brainhack Eugene 
-organizers: 
+organizers:
   - Kate Mills
+  - Dani Cosme
+  - Lucy Whitmore
 contact:
   - klmills@uoregon.edu
+  - dcosme@uoregon.edu
+  - lwhitmor@uoregon.edu
 website: https://brainhack-eugene.github.io
 address: University of Oregon, Eugene, OR, USA
 position:
