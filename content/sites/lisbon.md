@@ -6,7 +6,7 @@ organizers:
 contact:
   - julia.huntenburg@research.fchampalimaud.org
   - tiago.quendera@neuro.fchampalimaud.org
-website: https://brainhack-princeton.github.io
+website: 
 address: Champalimaud Foundation, Av. Brasília, 1400-038 Lisboa, Portugal
 position:
   lat: 38.693563
