@@ -6,7 +6,7 @@ organizers:
 contact:
   - erin.w.dickie@gmail.com
   - sean.hill@camh.ca
-website: 
+website: https://brainhackto.github.io/Global-Toronto-11-2019/
 address: Krembil Centre for Neuroinformatics, Center for Addiction and Mental Health, Toronto, ON, Canada
 position:
   lat: 43.654333 
