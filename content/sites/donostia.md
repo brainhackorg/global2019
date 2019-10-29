@@ -6,7 +6,7 @@ organizers:
 contact:
   - info.bhg-donostia@bcbl.eu
 website: https://brainhackdonostia.pages.bcbl.eu/
-address: : BCBL - Basque Center on Cognition, Brain and Language, Paseo Mikeletegi, 69, 20009 Donostia,Spain
+address: BCBL - Basque Center on Cognition, Brain and Language, Paseo Mikeletegi, 69, 20009 Donostia,Spain
 position:
   lat: 43.294272 
   lng: -1.986154
