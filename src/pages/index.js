@@ -90,7 +90,7 @@ class IndexPage extends Component {
           </div>
         </section>
 
-        <span id="host" className="anchor"></span>
+        {/* <span id="host" className="anchor"></span>
         <section className="host-section text-center">
           <div className="container">
             <div className="row">
@@ -114,8 +114,20 @@ class IndexPage extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
+        <span id="broadcasting" className="anchor"></span>
+        <section className="faq-section bg-light">
+          <div className="container">
+            <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+              <div className="col-12 col-lg-9">
+                <h2 className="text-black mb-3 text-center">Broadcast Schedule</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=ODJtZnVkNHNuZWVhYTk5MWI1cXB1MXJtNTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%238A2D38&amp;showTitle=0&amp;mode=WEEK" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+        
         <span id="faq" className="anchor"></span>
         <section className="faq-section bg-light">
           <div className="container">

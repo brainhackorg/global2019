@@ -1,4 +1,4 @@
-
+iframe { border-width: 0; }
 
 .card-header { border: none; border-top: 1px solid #CCC; cursor: pointer; }
 .accordion .card:first-child .card-header { border: none; }

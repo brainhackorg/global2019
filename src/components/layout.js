@@ -87,8 +87,11 @@ class Layout extends Component {
                 <li className="nav-item">
                   <a className="nav-link js-scroll-trigger" href="/global2019/#code-of-conduct">Code of Conduct</a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link js-scroll-trigger" href="/global2019/#host">Host an Event</a>
+                </li> */}
+                <li className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href="/global2019/#broadcasting">Broadcasting</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/global2019/locations">Locations</a>
