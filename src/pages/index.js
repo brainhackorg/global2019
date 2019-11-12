@@ -90,7 +90,7 @@ class IndexPage extends Component {
           </div>
         </section>
 
-        {/* <span id="host" className="anchor"></span>
+        <span id="host" className="anchor"></span>
         <section className="host-section text-center">
           <div className="container">
             <div className="row">
@@ -114,7 +114,7 @@ class IndexPage extends Component {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
         <span id="broadcasting" className="anchor"></span>
         <section className="faq-section bg-light">
