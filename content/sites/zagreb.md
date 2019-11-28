@@ -2,6 +2,8 @@
 title: Brainhack Zagreb
 organizers:
   - Andrija Stajduhar
+  - Tomislav Lipic
+  - Jaksa Vukojevic
 contact:
   - brainhackzg@gmail.com
 website: https://brainhackzg.github.io/
