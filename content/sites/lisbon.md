@@ -6,7 +6,7 @@ organizers:
 contact:
   - julia.huntenburg@research.fchampalimaud.org
   - tiago.quendera@neuro.fchampalimaud.org
-website: 
+website: https://bh-lisbon.github.io/
 address: Champalimaud Foundation, Av. Brasília, 1400-038 Lisboa, Portugal
 position:
   lat: 38.693563
