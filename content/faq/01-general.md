@@ -55,7 +55,7 @@ faq:
 
   - question: What are the main social accounts of Brainhack Global?
     answer: |
-      * Website: http://www.brainhack.org/global2019
+      * Website: http://www.brainhack.org/
       * Twitter: https://twitter.com/brainhackorg?lang=en-gb
-      * Mattermost: #brainhack-global-2019
-      * Github: https://github.com/brainhack101
+      * Mattermost: #brainhack-global
+      * Github: https://github.com/brainhackorg
